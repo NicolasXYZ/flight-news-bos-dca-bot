@@ -29,7 +29,7 @@ def get_groq_summary(news_items):
         
         INSTRUCTIONS:
         1. Summarize any potential disruptions (storms, strikes, FAA outages).
-        2. Be specific about which city is affected.
+        2. Be specific about which city is affected, from which date to which date are the potential disruptions, and also mention all other cities in the USA potentially affected by these issues.
         3. Precise whether it is confirmed delays and disruptions, or only potential issues.
         4. Keep it short (under 500 words).
         5. Format it as a clean briefing.
