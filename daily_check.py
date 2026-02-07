@@ -42,7 +42,7 @@ def get_groq_summary(news_items):
                     "content": prompt,
                 }
             ],
-            model="llama-4-maverick-17b-128e-instruct", # Fast and efficient model
+            model="llama-3.3-70b-versatile", # Fast and efficient model
         )
 
         return chat_completion.choices[0].message.content
